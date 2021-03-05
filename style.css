@@ -1,0 +1,121 @@
+header{
+    font-family: 'Akaya Kanadaka', cursive;
+    text-align: center;
+    background-color: #f7a868;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    color: white;
+    text-shadow: #ff0000 6px 0;
+}
+body{
+    background-color: #fff6a2;
+    font-size: larger;
+}
+main{
+    border-top: silver 20px solid;
+    border-bottom: silver 40px solid;
+    border-image-source: url("recursos/naranja2.svg");
+    border-image-repeat: repeat;
+}
+nav{
+    background-color: #ffff80;
+    border: #ff0000 2px solid;
+}
+ul{
+    list-style-type: none;
+    text-align: center    
+}
+
+li {
+    background-color: #f7a868;
+    border: #ff0000 2px solid;
+    display: inline;
+    margin-right: 10px;
+}
+a {
+    color: white;
+    padding: 0 4px;
+    text-decoration: none;
+}
+a.nave:hover {
+    background-color: #ff4500;
+}
+section{
+    font-family: sans-serif;
+    position: relative;
+}
+div.in{
+margin-bottom: 20%;
+padding: 0px;
+}
+section.na{
+    margin-left: 25%;
+    margin-right: 25%;
+    z-index: 1;
+}
+section.na p{
+    background-color: #f7be81;
+    border: #ff0000 3px solid;
+    text-decoration: overline;
+    text-align: center;
+    color: red;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+}
+section.am{
+    margin-right: 50%;
+    position: absolute;
+}
+section.am:hover{
+    z-index: 2;
+}
+section.am p{
+    background-color: #ffff80;
+    border: #e2e060 3px solid;
+    letter-spacing: 5px;
+    text-align: left;
+    color: #ffd54c;
+    margin-right: 20%;
+    padding-right: 2em;
+    padding-bottom: 3em;
+}
+section.az{
+    margin-left: 50%;
+    position: absolute;
+}
+section.az:hover{
+    z-index: 2;
+}
+section.az p{
+    background-color: #ccffff;
+    border: #9fc6c6 3px solid;
+    text-align: right;
+    color: #e8c457;
+    margin-left: 20%;
+    padding-left: 2em;
+    padding-bottom: 3em;
+}
+footer{
+    background-color: #ffff80;
+    color: #ff0000;
+    text-align: center;
+}
+footer p{
+    border-top: #f7a868 20px solid;
+    padding: 0;
+}
+section.no{
+    background-color: #f7a868;
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 175px;
+    margin-right: 25%;
+}
+p.no{
+    text-align: left;
+}
